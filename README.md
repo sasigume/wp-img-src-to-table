@@ -1,12 +1,14 @@
 # wp-img-src-to-table
 
+**日本語の説明** → https://qiita.com/and0ry0/items/99ed89269eff90538e4d
+
 **This is modified version of [Eli Williams' awesome script](https://elitwilliams.medium.com/check-for-404-rrors-in-bulk-using-this-simple-python-script-and-a-list-of-urls-cf3cf6a97eca)**
 
 I added xml parsing feature so that **you can now check WordPress backup file!**
 
 ## Usage
 
-**BEFORE USING THIS SCRIPT, please replace `content:encoded` with `content` in order to avoid syntax error when parsing xml.
+**BEFORE USING THIS SCRIPT**, please replace `content:encoded` with `content` in order to avoid syntax error when parsing xml.
 
 ```
 if __name__ == "__main__":
