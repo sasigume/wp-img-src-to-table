@@ -11,7 +11,7 @@ def get_url_status(urls,file):
             r = requests.get(url)
             f.write(url + "\tSUCCESS:\t" + str(r.status_code) + "\n")
         except Exception as e:
-            print('Error: ' + e)
+            print('Error: ' + str(e))
             f.write(url + "\tERROR:\t" + str(e) + "\n")
     return None
 
